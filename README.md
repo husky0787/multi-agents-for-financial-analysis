@@ -1,28 +1,38 @@
-# Stock Analysis Agent System
+# Stock Analysis Agent System (Colab Notebook)
 
-This repository contains a Google Colab notebook for a Stock Analysis Agent System that leverages AI agents to provide comprehensive stock analysis. Built with Python and LangChain, it integrates financial APIs for fundamental, technical, and sentiment analysis, delivering investment recommendations through a Gradio-based web interface.
+This project is a Google Colab notebook that provides a comprehensive stock analysis tool powered by AI agents. It offers fundamental, technical, and sentiment analysis for stocks using a multi-agent system built with LangChain. The system integrates with APIs for financial data, technical indicators, and market sentiment, and features a Gradio-based web interface for user interaction.
 
 ## Features
 
-- **Fundamental Analysis**: Processes financial statements (income statements, balance sheets, cash flows) using the [financialdatasets.ai](https://financialdatasets.ai) API.
-- **Technical Analysis**: Computes technical indicators (RSI, MACD, SMA, EMA, Bollinger Bands) with `financialdatasets.ai` and `pandas_ta` for market trend insights.
-- **Sentiment Analysis**: Collects options chain data (via `yfinance`), insider trading data (via `financialdatasets.ai`), and news sentiment (via [Tavily API](https://tavily.com)).
-- **Supervisor Agent**: Coordinates fundamental, technical, and sentiment agents for cohesive investment recommendations (e.g., buy, hold, sell).
-- **Gradio Interface**: Provides a user-friendly web interface in Colab for querying stocks and viewing results with processing time.
-- **Performance Tracking**: Displays query processing time to monitor efficiency.
+- **Fundamental Analysis**: Analyzes financial statements (income statements, balance sheets, cash flow statements) using the [financialdatasets.ai](https://financialdatasets.ai) API.
+- **Technical Analysis**: Retrieves stock price data and calculates technical indicators (RSI, MACD, SMA, EMA, Bollinger Bands) using [financialdatasets.ai](https://financialdatasets.ai) and [pandas_ta](https://github.com/twopirllc/pandas-ta).
+- **Sentiment Analysis**: Fetches options chain data (via [yfinance](https://github.com/ranaroussi/yfinance)), insider trading data (via [financialdatasets.ai](https://financialdatasets.ai)), and market news sentiment (via [Tavily API](https://tavily.com)).
+- **Gradio Interface**: A user-friendly web interface in Colab to input queries and view results, with processing time displayed.
+- **Supervisor Agent**: Coordinates the fundamental, technical, and sentiment agents to provide a cohesive investment recommendation (e.g., buy, hold, sell).
 
-## Prerequisites
+## Getting Started
 
-- Python 3.8 or higher (provided by Google Colab)
-- Access to the following APIs (API keys required):
-  - [Poe API](https://poe.com) for GPT-4o-mini
-  - [Financial Datasets API](https://financialdatasets.ai) for financial data
-  - [Tavily API](https://tavily.com) for news sentiment
-- Internet connection for API calls and library downloads
-- A Google Colab account (free tier is sufficient)
+### Prerequisites
 
-## Installation
+- A Google Colab account (free tier is sufficient).
+- API keys for:
+  - [Poe API](https://poe.com) (`POE_API_KEY`)
+  - [Financial Datasets API](https://financialdatasets.ai) (`FINANCIAL_DATASETS_API_KEY`)
+  - [Tavily API](https://tavily.com) (`TAVILY_API_KEY`)
 
-1. **Clone or Download the Repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+### Running in Google Colab
+
+1. **Download the Notebook**:
+   - Clone this repository or download the `stock_analysis_colab.ipynb` file:
+     ```bash
+     git clone https://github.com/your-username/your-repo-name.git
+  - Alternatively, download the `stock_analysis_colab.ipynb` file directly from the repository.
+
+2. **Open in Colab**:
+   - Go to [Google Colab](https://colab.research.google.com).
+   - Upload the `stock_analysis_colab.ipynb` file by clicking "File" > "Upload Notebook".
+
+3. **Install Dependencies**:
+   - The notebook includes a cell to install required libraries:
+     ```bash
+     !pip install gradio==4.44.0 pandas==2.2.2 requests==2.32.3 langchain_openai==0.2.1 tavily-python==0.5.0 yfinance==0.2.43 pandas_ta==0.3.14b0
