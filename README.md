@@ -63,9 +63,31 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
 
 ## Example Query
 
+- Provide a comprehensive analysis of AAPL stock including fundamental, technical, and sentiment aspects.
 
 
+**Example output (simplified):**
 
+### Fundamental Analysis
+- Data retrieved from financialdatasets.ai
+- Revenue growth: X% over the past 5 years
+- Debt-to-equity ratio: Y
+...
+
+### Technical Analysis
+- Current price: $Z (USD)
+- RSI: 65.2 (neutral, close to overbought)
+...
+
+### Sentiment Analysis
+- Recent insider trades: 3 buys, 2 sells
+- News sentiment: Positive due to recent product launches
+...
+
+### Recommendation
+Based on strong fundamentals and positive sentiment, consider a "Buy" for AAPL.
+
+Processing time: 5.23 seconds
 
 ## Notes
 
