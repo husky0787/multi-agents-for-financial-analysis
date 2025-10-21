@@ -1,0 +1,8 @@
+gradio==5.49.1
+langchain-core==0.3.79
+requests==2.32.4
+langchain_openai==0.3.35
+tavily-python==0.7.12
+yfinance==0.2.66
+pandas_ta==0.4.71b0
+pandas==2.3.3
