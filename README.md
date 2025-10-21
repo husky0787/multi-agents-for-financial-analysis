@@ -65,8 +65,7 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
 
 - Provide a comprehensive analysis of AAPL stock including fundamental, technical, and sentiment aspects.
 
-
-**Example output (simplified):**
+**Example output (simplified):
 
 ### Fundamental Analysis
 - Data retrieved from financialdatasets.ai
