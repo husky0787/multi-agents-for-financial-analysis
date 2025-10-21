@@ -25,7 +25,7 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
 1. **Download the Notebook**:
    - Clone this repository or download the `stock_analysis_colab.ipynb` file:
      ```bash
-     git clone https://github.com/your-username/your-repo-name.git
+     git clone https://github.com/husky0787/multi-agents-for-financial-analysis.git
      ```
    - Alternatively, download the `.ipynb` file directly from the repository.
 
@@ -118,4 +118,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [your-email@example.com].
+For questions or issues, please open an issue on GitHub or contact [kit56142962@gmail.com].
