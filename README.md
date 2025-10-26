@@ -63,11 +63,18 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
 
 ## Streamlit Version (Alternative Interface)
 
-- The Streamlit version replaces the Gradio UI with a more conversational chat-style interface, supporting session history and optional technical indicator charts (e.g., RSI line charts). It uses the same agents and APIs but offers better layout flexibility and data visualization.
 
 
+1. **Download and Prepare the Notebook:**
 
-
+    - The Streamlit version replaces the Gradio UI with a more conversational chat-style interface, supporting session history and optional technical indicator charts (e.g., RSI line charts). It uses the same agents and APIs but offers better layout flexibility and data visualization.
+  
+2. **Install Dependencies (Updated for Streamlit):**
+     - Run the following cell in Colab:
+  
+     ```python
+    !pip install streamlit==1.38.0 pandas==2.2.2 requests==2.32.3 langchain_openai==0.2.1 tavily-python==0.5.0 yfinance==0.2.43 pandas_ta==0.3.14b0 pyngrok
+     ```
 ## Example Query
 
 - Provide a comprehensive analysis of AAPL stock including fundamental, technical, and sentiment aspects.
