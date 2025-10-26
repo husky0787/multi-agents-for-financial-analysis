@@ -73,8 +73,14 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
      - Run the following cell in Colab:
   
      ```python
-    !pip install streamlit==1.38.0 pandas==2.2.2 requests==2.32.3 langchain_openai==0.2.1 tavily-python==0.5.0 yfinance==0.2.43 pandas_ta==0.3.14b0 pyngrok
+      !pip install streamlit==1.38.0 pandas==2.2.2 requests==2.32.3 langchain_openai==0.2.1 tavily-python==0.5.0 yfinance==0.2.43 pandas_ta==0.3.14b0 pyngrok
      ```
+     - Note: pyngrok is added for public URL tunneling in Colab.
+  
+3. **Set API Keys:**
+
+      - Same as the Gradio version—use the getpass cell to set environment variables securely.
+4. **follow the instruction in the nootbook**
 ## Example Query
 
 - Provide a comprehensive analysis of AAPL stock including fundamental, technical, and sentiment aspects.
