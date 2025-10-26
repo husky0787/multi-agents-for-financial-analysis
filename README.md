@@ -61,6 +61,13 @@ This project is a Google Colab notebook that provides a comprehensive stock anal
    - Click the "Submit" button to process the query.
    - Results will appear in the "Analysis Results" box, with processing time displayed.
 
+## Streamlit Version (Alternative Interface)
+
+- The Streamlit version replaces the Gradio UI with a more conversational chat-style interface, supporting session history and optional technical indicator charts (e.g., RSI line charts). It uses the same agents and APIs but offers better layout flexibility and data visualization.
+
+
+
+
 ## Example Query
 
 - Provide a comprehensive analysis of AAPL stock including fundamental, technical, and sentiment aspects.
